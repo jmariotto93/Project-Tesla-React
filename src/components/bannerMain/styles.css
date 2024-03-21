@@ -1,0 +1,101 @@
+.container-parallax1,
+.container-parallax2,
+.container-parallax3,
+.container-parallax4,
+.container-parallax5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-parallax1 {
+    background-image: url("https://www.motorisumotori.it/wp-content/uploads/2024/01/Tesla-Cybertruck-1160x653.jpg");
+    height: 100vh;
+}
+
+.container-parallax1 h1 {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.container-parallax2 {
+    background-image: url("../../../public/images/imagem2.jpg");
+    height: 65vh;
+}
+
+.container-parallax3 {
+    background-image: url("../../../public/images/imagem3.jpg");
+    height: 65vh;
+}
+
+
+.container-parallax4 {
+    background-image: url("../../../public/images/imagem42.jpg");
+    height: 100vh;
+}
+
+.container-parallax5 {
+    background-image: url("https://tm.ibxk.com.br/2023/05/15/15105210597108.jpg?ims=1280x480");
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container-parallax1 h1 {
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (max-width: 625px) {
+
+
+    .container-parallax1 {
+        width: 100%;
+        background-image: url("../../../public/images/img-mobile/imagem1-mobile.jpg");
+    }
+
+    .container-parallax1 h1 {
+        top: 59%;
+        font-size: 55px;
+    }
+
+    .container-parallax2 {
+        width: 100%;
+        background-image: url("../../../public/images/img-mobile/imagem2-mobile.jpg");
+
+    }
+
+    .container-parallax3 {
+        width: 100%;
+        background-image: url("../../../public/images/img-mobile/imagem3-mobile.jpg");
+    }
+
+    .container-parallax4 {
+        width: 100%;
+        background-image: url("../../../public/images/img-mobile/imagem4-mobile.jpg");
+    }
+
+    .container-parallax5 {
+        width: 100%;
+        background-image: url("../../../public/images/img-mobile/imagem5-mobile.jpg");
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .container-parallax1 h1 {
+        top: 67%;
+    }
+
+}

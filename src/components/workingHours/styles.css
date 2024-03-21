@@ -1,0 +1,67 @@
+#horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#horarios h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    letter-spacing: 8px;
+}
+
+.lista-horarios {
+    width: 768px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+.lista-horarios h3 {
+    text-transform: uppercase;
+}
+
+.lista-horarios li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.lista-horarios li div {
+    width: 70%;
+    height: 1px;
+    background-color: #acacac;
+    position: absolute;
+    left: 13%;
+}
+
+.texto-vermelho {
+    color: #ff0000;
+}
+
+.lista-horarios p {
+    color: #acacac;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .lista-horarios {
+        width: 350px;
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .lista-horarios li div {
+        width: 40%;
+        left: 25%;
+    }
+}
