@@ -85,6 +85,7 @@
 
     .container-parallax5 {
         width: 100%;
+        height: 100vh;
         background-image: url("../../../public/images/img-mobile/imagem5-mobile.jpg");
     }
 
