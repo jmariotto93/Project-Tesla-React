@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+import { LiWorkingHours } from '../liWorkingHours/LiWorkingHours'
 
 export const WorkingHours = () => {
   return (
@@ -8,41 +9,44 @@ export const WorkingHours = () => {
 
         <div>
             <ul className="lista-horarios">
-                <li>
-                    <h3>Segunda</h3>
-                    <div></div>
-                    <p>09:00 - 18:30</p>
-                </li>
-                <li>
-                    <h3>Terça</h3>
-                    <div></div>
-                    <p>09:00 - 18:30</p>
-                </li>
-                <li>
-                    <h3>Quarta</h3>
-                    <div></div>
-                    <p>09:00 - 18:30</p>
-                </li>
-                <li>
-                    <h3>Quinta</h3>
-                    <div></div>
-                    <p>09:00 - 18:30</p>
-                </li>
-                <li>
-                    <h3>Sexta</h3>
-                    <div></div>
-                    <p>09:00 - 18:30</p>
-                </li>
-                <li>
-                    <h3>Sábado</h3>
-                    <div></div>
-                    <span className="texto-vermelho">Fechado</span>
-                </li>
-                <li>
-                    <h3>Domingo</h3>
-                    <div></div>
-                    <span className="texto-vermelho">Fechado</span>
-                </li>
+            
+               <LiWorkingHours 
+                    week={"Segunda"}
+                    hours={"09:00 - 18:30"}
+                />
+
+                <LiWorkingHours 
+                    week={"Terça"}
+                    hours={"09:00 - 18:30"}
+                />
+
+                <LiWorkingHours 
+                    week={"Quarta"}
+                    hours={"09:00 - 18:30"}
+                />
+
+                <LiWorkingHours 
+                    week={"Quinta"}
+                    hours={"09:00 - 18:30"}
+                />
+
+                <LiWorkingHours 
+                    week={"Sexta"}
+                    hours={"09:00 - 18:30"}
+                />
+
+                <LiWorkingHours 
+                    week={"Sábado"}
+                    hours={"Fechado"}
+                    ClassName={"texto-vermelho"}
+                />
+
+                <LiWorkingHours 
+                    week={"Domingo"}
+                    hours={"Fechado"}
+                    ClassName={"texto-vermelho"}
+                />
+                
             </ul>
         </div>
     </section>
